@@ -1,7 +1,7 @@
 # User sets folder where files are written
 
 
-setwd("Z:/BEA API R/data")
+setwd("Your working directory here")
 #setwd("~/Drive/R")
 
 #user sets file name
@@ -141,7 +141,7 @@ url1 <- paste0(
   
   "https://www.bea.gov/api/data/?&UserID=",
 
-  "Insert_your_own_BEA_API_key",
+  "YOUR_BEA_API_USER_ID",
   
   "&method=GetData&DataSetName=", dataset,
   
