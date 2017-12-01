@@ -142,7 +142,7 @@ if (years == "X") {
 
 url1 <- paste0(
   
-  "https://www.bea.gov/api/data/?&UserID=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "https://www.bea.gov/api/data/?&UserID=YOUR_BEA_API_USER_ID",
   
   "&method=GetData&DataSetName=", dataset,
   
