@@ -140,11 +140,11 @@ if (countries == "X") {
   country_list <- paste(countries, collapse = ",")
 }
 
-#URL for calling BEA API
+#URL for calling BEA API - add your own BEA API User ID
 
 url1 <- paste0(
   
-  "https://www.bea.gov/api/data/?&UserID=E4D5D03E-0CA3-4515-A904-1F1AE91B42BB",
+  "https://www.bea.gov/api/data/?&UserID=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   
   "&method=GetData&DataSetName=", dataset,
   
