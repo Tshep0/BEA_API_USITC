@@ -42,11 +42,11 @@ if (years == "X") {
   year_list <- paste(years, collapse = ",")
 }
 
-#URL for calling BEA API for NIPA tables
+#URL for calling BEA API for NIPA tables - add your own BEA API User ID
 
 url3 <- paste0(
   
-  "https://www.bea.gov/api/data/?&UserID=E4D5D03E-0CA3-4515-A904-1F1AE91B42BB",
+  "https://www.bea.gov/api/data/?&UserID=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   
   "&method=GetData&DataSetName=", dataset2,
   
